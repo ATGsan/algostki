@@ -2,9 +2,10 @@ class List{
 public:
     List();
     
-    Get(size_t i);
-    Find(int val);
-    Put(/*???*/pos);
+    int Get(size_t i);
+    /*???*/Find(int val);
+    void Put(/*???*/pos);
+    void Delete(/*???*/);
 private:
     // ???
 };
